@@ -4,6 +4,12 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-.row no-gutters {
-    padding: 0px;
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }

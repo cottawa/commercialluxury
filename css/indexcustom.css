@@ -1,12 +1,14 @@
 body{margin:0px; padding:0px;}
 @-webkit-keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -400px 0;}
+	0%   {background-position: 0 0;}
+    50%  {background-position: -400px 0;}
+    100% {background-position: 0 0;}
 }
  
 @keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -400px 0;}
+	0%   {background-position: 0 0;}
+    50%  {background-position: -400px 0;}
+    100% {background-position: 0 0;}	
 }
 .home-product {
     background:url("../images/architecture-1869211_1920.jpg");

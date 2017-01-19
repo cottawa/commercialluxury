@@ -4331,8 +4331,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
   float: right;
-  font-family: 'Georgia';
-  font-size: 16pt
+  font-family: 'Georgia', serif;
+  font-size: 14pt
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {

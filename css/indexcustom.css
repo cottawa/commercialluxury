@@ -16,7 +16,7 @@ to {background-position: -400px 0;}
     color:#fff !important;
 	min-height:641px;
 	-webkit-animation: backgroundScroll 35s linear infinite;
-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 50s linear infinite;
 background-size:130% 100%;
 	background-position:top;
 	background-attachment:fixed;

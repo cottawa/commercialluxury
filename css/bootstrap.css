@@ -240,8 +240,6 @@ th {
   }
   .navbar {
     display: none;
-    font-family: 'Georgia';
-    font-size: 16pt
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -4327,6 +4325,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 7.5px -15px;
   float: right;
+  font-family: 'Georgia';
+  font-size: 16pt
 }
 .navbar-nav > li > a {
   padding-top: 10px;

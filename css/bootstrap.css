@@ -1089,6 +1089,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  margin-top: 75px;
 }
 input,
 button,
@@ -4332,7 +4333,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
   float: right;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
   font-size: 12pt;
   font-variant: small-caps;
 }

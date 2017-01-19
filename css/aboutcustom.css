@@ -35,6 +35,6 @@
 }
 
 .logo {
-    width: 5%;
-    height: 50%;
+    min-width: 5%;
+    min-height: 50%;
 }

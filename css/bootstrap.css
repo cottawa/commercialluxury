@@ -4325,14 +4325,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 7.5px -15px;
   float: right;
-  font-family: 'Georgia';
-  font-size: 16pt
 }
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
   float: right;
+  font-family: 'Georgia';
+  font-size: 16pt
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {

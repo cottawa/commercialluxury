@@ -4330,7 +4330,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
   float: right;
-  font-family: 'Georgia', serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 12pt;
   font-variant: small-caps;
 }

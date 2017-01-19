@@ -35,6 +35,6 @@
 }
 
 .logo {
-    width: 10%;
-    height: 75%;
+    max-width: 200px;
+    max-height: 400px;
 }

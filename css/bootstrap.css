@@ -4332,7 +4332,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
   float: right;
   font-family: 'Georgia', serif;
-  font-size: 12pt
+  font-size: 12pt;
   font-variant: small-caps;
 }
 @media (max-width: 767px) {

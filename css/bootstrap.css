@@ -4486,6 +4486,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
     margin-right: 15px;
     margin-left: 15px;
+    font-family: Georgia;
+  font-size: 16px;
+  font-variant: small-caps;
   }
 }
 @media (min-width: 768px) {

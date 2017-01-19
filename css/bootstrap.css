@@ -240,6 +240,8 @@ th {
   }
   .navbar {
     display: none;
+    font-family: 'Georgia';
+    font-size: 16pt
   }
   .btn > .caret,
   .dropup > .btn > .caret {

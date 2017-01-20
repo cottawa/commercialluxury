@@ -46,9 +46,9 @@ background-size:130% 100%;
 
 .footer {
 	font-family: 'Arial', sans-serif;
-	font-size:10px;
+	font-size:11px;
 	color: #ffffff;
 	position: absolute;
 	left: 5px;
-	bottom: 0;
+	bottom: 5px;
 }

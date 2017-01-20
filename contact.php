@@ -198,4 +198,4 @@ function generateEmail ($teamName, $firstName1, $lastName1, $gender1, $level1, $
     } 
 ?>
 
-<!-- InstanceEndEditable -->  <
+<!-- InstanceEndEditable -->

@@ -1,3 +1,3 @@
 $(document).ready(function() {
-     $('#loader').css('visibility', 'hidden');
+     $('body').addClass('loaded');
 });

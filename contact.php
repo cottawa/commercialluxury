@@ -89,7 +89,7 @@ $totallevel = 0;
 
 				$headers = "MIME-Version: 1.0\r\n".
 						   "Content-type: text/html; charset=utf-8\r\n".
-						   "Return-Path:".$emailAddress1." , ".$emailAddress2." , ".$emailAddress3;
+						   "Return-Path:".$emailAddress1;
 				
 				$email_text = generateEmail ($teamName, $firstName1, $lastName1, $gender1, $level1, $emailAddress1, $studentId1, $phoneNumber1, $p1size,
 								$diet, $tcolour, "<br />");
@@ -198,4 +198,4 @@ function generateEmail ($teamName, $firstName1, $lastName1, $gender1, $level1, $
     } 
 ?>
 
-<!-- InstanceEndEditable -->  </div></div><script type="text/javascript">//<![CDATA[if(typeof sIFR == "function"){	sIFR.replaceElement(named({sSelector:"#header h1", sFlashSrc:"http://www.uwaterloo.ca/scripts/sifr/eideticneoregular.swf", sColor:"#000000", sLinkColor:"#000000", sBgColor:"#FFFFFF", sHoverColor:"#CC0000", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=right&offsetTop=0"}));};//]]></script><script type="text/javascript">var msAccID = "0385tkie" </script><script src="http://svr04.mapsurface.com/api/1.0/mapsurface.js" type="text/javascript"></script></div></body><!-- InstanceEnd --></html>
+<!-- InstanceEndEditable -->  <

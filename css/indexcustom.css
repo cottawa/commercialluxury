@@ -151,7 +151,7 @@ background-size:130% 100%;
         transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
-.loaded #loader-wrapper {
+.loaded #loader {
 	visibility: hidden;
 	 -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
              -ms-transform: translateY(-100%);  /* IE 9 */

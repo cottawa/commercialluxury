@@ -166,10 +166,10 @@
  }
 
 .footer {
-	font-family: 'Raleway', sans-serif;
-	font-size:9px;
+	font-family: 'Arial', sans-serif;
+	font-size:11px;
 	color: #000000;
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 5px;
+	bottom: 5px;
 }

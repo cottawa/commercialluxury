@@ -48,46 +48,46 @@
     
 	<p style="margin: 50px 0px 50px 100px; font-family: Raleway, Helvetica, sans-serif; font-size: 14px; color: #000000;"> For more information or to request a media kit please fill out the form below:</p>	
 	
-<form class="form-horizontal" role="form" method="post" action="index.php">
-	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-			<?php echo "<p class='text-danger'>$errName</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-			<?php echo "<p class='text-danger'>$errEmail</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-			<?php echo "<p class='text-danger'>$errMessage</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-			<?php echo "<p class='text-danger'>$errHuman</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<?php echo $result; ?>	
-		</div>
-	</div>
-</form>
+<form action="tc_reg.php" method="post"><br /><center><span style="text-decoration: underline;">Trinity Cup - Winter 2015 Registration Form (* denotes required fields)</span></center>
+<p><strong>Team Name*</strong>: <input name="teamName" size="50" type="text" /> <br /><em>Any offensive, inappropriate, or immature names (in any language) will be rejected.</em></p>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p><strong>Strongest Player</strong>&nbsp;&nbsp; <input name="needed1" type="checkbox" /> I need someone random! (need team member) <br /><em>Please note that registration priority will be given to teams that have been established.</em></p>
+<p>First Name*: &nbsp;&nbsp;&nbsp;&nbsp; <input name="firstName1" type="text" /> &nbsp; Last Name*: <input name="lastName1" type="text" /></p>
+<table class="p4Table">
+<tbody>
+<tr>
+<td>Gender*:&nbsp;&nbsp; <input name="gender1" type="radio" value="Male" />Male&nbsp; <input name="gender1" type="radio" value="Female" />Female</td>
+</tr>
+</tbody>
+</table>
+<table class="p4Table">
+<tbody>
+<tr>
+<td>Level*:&nbsp;&nbsp;&nbsp;&nbsp; <br /><input name="level1" type="radio" value="Beginner" />Beginner&nbsp; <input name="level1" type="radio" value="Novice" />Novice&nbsp; <input name="level1" type="radio" value="Intermediate" />Intermediate&nbsp; <input name="level1" type="radio" value="Advanced" />Advanced&nbsp; <input name="level1" type="radio" value="Competitive" />Competitive&nbsp; <br /><em>All players must <strong>accurately</strong> indicate skill levels regardless of draw. All teams will be monitored carefully throughout the tournament and <strong>unfair/false rankings will result in team penalization or disqualification</strong>. Please note that level 5 guys/girls <strong>cannot</strong> play in lower draw. <strong>Please note that players should sign up with the highest level they have been in the club. </strong> <br /><br />A detailed breakdown of the different skill levels can be found <a href="http://badmintonclub.uwaterloo.ca/UWBC_Fall_2014_Level_Info.pdf" target="_blank">here</a>.</em></td>
+</tr>
+</tbody>
+</table>
+<p>E-mail Address*: <input name="email1" size="50" type="text" /></p>
+<p>UW Student ID*: <input name="studentID1" type="text" /></p>
+<p>Telephone*: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="phone1" type="text" /></p>
+<table class="p4Table">
+<tbody>
+<tr>
+<td>T-shirt Size*:&nbsp;&nbsp; <input name="p1size" type="radio" value="Small" />Small&nbsp; <input name="p1size" type="radio" value="Medium" />Medium <input name="p1size" type="radio" value="Large" />Large <input name="p1size" type="radio" value="XLarge" />Extra-Large</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Dietary Restrictions:&nbsp; <br /><em>Note: Please note the person's name followed by their dietary restriction.</em><input name="diet" size="45" type="text" /></p>
+<p>Please rank your preference of t-shirt colours from most desired to least desired:&nbsp; <input name="tcolour" size="80" type="text" /> <br /><em>All available colours can be found <a href="http://badmintonclub.uwaterloo.ca/images/colors.jpg" target="_BLANK">here</a>. If no colours are entered or if the only ones entered are already taken, we will randomly choose an available colour for you.</em></p>
+<center><input name="submit" type="submit" value="Submit" /></center></form>
     </body>
     </html>
   

@@ -43,3 +43,12 @@ background-size:130% 100%;
   text-decoration: none;
   background-color: #ADD8E6;
 }
+
+.footer {
+	font-family: 'Raleway', sans-serif;
+	font-size:9px;
+	color: #000000;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}

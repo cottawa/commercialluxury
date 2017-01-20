@@ -172,3 +172,12 @@ textarea:hover {
 #submit:hover {
   color: #e2dedb;
 }
+
+.footer {
+	font-family: 'Arial', sans-serif;
+	font-size:11px;
+	color: #000000;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}

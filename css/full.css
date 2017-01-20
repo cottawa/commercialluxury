@@ -23,3 +23,12 @@ body {
   text-decoration: none;
   background-color: #ADD8E6;
 }
+
+.footer {
+	font-family: 'Arial', sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}

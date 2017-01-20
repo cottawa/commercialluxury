@@ -166,3 +166,8 @@
 	-webkit-transition: all 0.3s 1s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
                 transition: all 0.3s 1s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
+
+#content {
+	margin: 0 auto;
+	padding-bottom: 50px;
+}

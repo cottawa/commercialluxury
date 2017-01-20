@@ -27,7 +27,8 @@ background-size:130% 100%;
 .logo {
 	width: 400px;
 	height: 200px;
-	margin: 10% 50% 50% 35%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img-circle {

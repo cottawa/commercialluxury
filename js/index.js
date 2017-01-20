@@ -1,3 +1,5 @@
 $(document).ready(function() {
-     $('body').addClass('loaded');
+     setTimeout(function() {
+          $('body').addClass('loaded');
+     }, 3000)
 });

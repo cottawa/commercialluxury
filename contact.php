@@ -30,11 +30,11 @@ if (isset($_POST['submit'])) {
 
 	$headers = "MIME-Version: 1.0\r\n".
 	   "Content-type: text/html; charset=utf-8\r\n".
-	   "Return-Path: s.wongsiktsang@gmail.com";
+	   "Return-Path: cassandra@iciprivatesale.com";
 
 	$email_text = generateEmail ($name, $email, $phone, $message, "<br />");
 
-	mail("s.wongsiktsang@gmail.com", "Contact Form", $email_text, $headers);
+	mail("cassandra@iciprivatesale.com", "Contact Form", $email_text, $headers);
 
 	echo "Thank You!" . " -" . "<a href='index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 

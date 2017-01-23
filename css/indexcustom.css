@@ -16,7 +16,7 @@ body{margin:0px; padding:0px;}
     padding: 100px 0;
     width: 100%;
     color:#fff !important;
-	min-height:1080px;
+	min-height:100%;
 	-webkit-animation: backgroundScroll 50s linear infinite;
 animation: backgroundScroll 50s linear infinite;
 background-size:130% 100%;
@@ -48,7 +48,7 @@ background-size:130% 100%;
 	font-family: 'Arial', sans-serif;
 	font-size:11px;
 	color: #ffffff;
-	position: absolute;
+	position: fixed;
 	left: 5px;
 	bottom: 5px;
 }

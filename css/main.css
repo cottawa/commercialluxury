@@ -180,3 +180,8 @@
 	margin: 0px 200px 50px 200px;
 	text-align: center;
 }
+
+.icon {
+	max-width: 25%;
+	text-align: center;
+}

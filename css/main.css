@@ -178,7 +178,6 @@
 	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
 	font-size: 16px;
 	margin: 0px 200px 50px 200px;
-	text-align: center;
 }
 
 .icon {
@@ -187,4 +186,5 @@
 	margin: auto;
 	display: block;
 	margin-top: 25px;
+	margin-bottom: 10px;
 }

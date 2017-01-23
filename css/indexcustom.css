@@ -16,7 +16,7 @@ body{margin:0px; padding:0px;}
     padding: 100px 0;
     width: 100%;
     color:#fff !important;
-	min-height: 300%;
+	min-height: 768px;
 	-webkit-animation: backgroundScroll 50s linear infinite;
 animation: backgroundScroll 50s linear infinite;
 background-size:130% 100%;

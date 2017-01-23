@@ -169,7 +169,7 @@
 	font-family: 'Arial', sans-serif;
 	font-size:11px;
 	color: #000000;
-	position: absolute;
+	position: fixed;
 	left: 5px;
 	bottom: 5px;
 }

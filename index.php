@@ -1,1 +1,1 @@
-some text 
+<?php header( 'Location: /index.html' ) ;  ?>

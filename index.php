@@ -1,1 +1,1 @@
-<?php header( 'Location: /cottawa.github.io/index.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>

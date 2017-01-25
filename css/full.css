@@ -11,9 +11,15 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    background: url('/images/comingsoon.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #777;
 }

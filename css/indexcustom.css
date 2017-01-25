@@ -1,0 +1,54 @@
+body{margin:0px; padding:0px;}
+@-webkit-keyframes backgroundScroll {
+	0%   {background-position: 0 0;}
+    50%  {background-position: -400px 0;}
+    100% {background-position: 0 0;}
+}
+ 
+@keyframes backgroundScroll {
+	0%   {background-position: 0 0;}
+    50%  {background-position: -400px 0;}
+    100% {background-position: 0 0;}	
+}
+.home-product {
+    background:url("../images/architecture-1869211_1920.jpg");
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+    color:#fff !important;
+	min-height: 1000px;
+	-webkit-animation: backgroundScroll 50s linear infinite;
+animation: backgroundScroll 50s linear infinite;
+background-size:130% 100%;
+	background-position:top;
+	background-attachment:fixed;
+}
+
+.logo {
+	width: 400px;
+	height: 178px;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.img-circle {
+    border-radius: 5%;
+}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.footer {
+	font-family: 'Arial', sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+}

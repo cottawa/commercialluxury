@@ -1589,17 +1589,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 .container-fluid {
@@ -3979,11 +3979,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  float: right;
 }
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+  float: right;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4274,9 +4276,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  margin-left: -10px;
+  margin-top: 5px;
+  padding: 0px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4322,11 +4324,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  float: right;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  float: right;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  font-weight: 650;
+  font-size: 12pt;
+  font-variant: small-caps;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4353,15 +4361,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
+    float: right;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    float: right;
   }
 }
 .navbar-form {
@@ -4472,12 +4481,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px;
+  
 }
 @media (min-width: 768px) {
   .navbar-text {
     float: left;
     margin-right: 15px;
     margin-left: 15px;
+   
   }
 }
 @media (min-width: 768px) {
@@ -4505,10 +4516,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 16px;
+  font-variant: small-caps;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #000000;
+  
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -6753,5 +6768,7 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+ 
 /*# sourceMappingURL=bootstrap.css.map */

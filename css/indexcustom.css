@@ -52,6 +52,15 @@ background-size:200% 100%;
 	bottom: 5px;
 }
 
+.navbar-right .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.navbar-right .dropdown-menu-left {
+  right: auto;
+  left: 0;
+}
+
 @media screen and (min-width: 768px) {
 	body{margin:0px; padding:0px;}
 @-webkit-keyframes backgroundScroll {

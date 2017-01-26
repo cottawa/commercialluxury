@@ -111,7 +111,7 @@ header {
 #form {
   position: relative;
   max-width: 100%;
-  margin: 50px auto 100px auto;
+  margin: 50px 5px 100px 5px;
 }
 
 input {

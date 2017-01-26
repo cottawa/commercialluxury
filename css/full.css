@@ -16,10 +16,21 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #777;
+}
+
+@media screen and (max-width: 768px) {
+.full {
+    background: url('/images/comingsoon.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 }

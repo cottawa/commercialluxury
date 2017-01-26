@@ -189,3 +189,12 @@
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+
+@media screen and (min-width: 768px) {
+	.text {
+	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
+	font-size: 16px;
+	margin: 0px 5px 50px 5px;
+	text-align: left;
+}
+}

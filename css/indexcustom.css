@@ -14,12 +14,12 @@ body{margin:0px; padding:0px;}
     background:url("../images/architecture-1869211_1920.jpg");
     float: left;
     padding: 100px 0;
-    width: 200%;
+    width: 100%;
     color:#fff !important;
 	min-height: 500px;
 	-webkit-animation: backgroundScroll 50s linear infinite;
 animation: backgroundScroll 50s linear infinite;
-background-size:130% 100%;
+background-size:200% 100%;
 	background-position:top;
 	background-attachment:fixed;
 }

@@ -27,11 +27,22 @@ body {
 
 @media screen and (max-width: 768px) {
 .full {
-        background: url(/images/comingsoon.png) no-repeat center center fixed; 
-        background-size: cover;
-    }
-    .full-mobile-background {
-        display: none;
-    }
+    background: url('/images/comingsoon.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .full {
+    background: url('/images/comingsoon.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
 }
 }

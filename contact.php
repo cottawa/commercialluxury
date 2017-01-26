@@ -1,3 +1,4 @@
+<?php include_once("analyticstracking.php") ?>
 <?php
 
 // Variable Declarations
@@ -87,3 +88,4 @@ function generateEmail ($name, $email, $phone, $message, $break)
 ?>
 
 <!-- InstanceEndEditable --></div></div><script type="text/javascript">
+

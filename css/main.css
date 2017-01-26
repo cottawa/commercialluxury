@@ -174,10 +174,11 @@
 	bottom: 5px;
 }
 
-.text {
+
+	.text {
 	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
 	font-size: 16px;
-	margin: 0px 200px 50px 200px;
+	margin: 0px 5px 50px 5px;
 	text-align: left;
 }
 
@@ -194,7 +195,9 @@
 	.text {
 	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
 	font-size: 16px;
-	margin: 0px 5px 50px 5px;
+	margin: 0px 200px 50px 200px;
 	text-align: left;
 }
+}
+
 }

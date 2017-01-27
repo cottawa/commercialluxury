@@ -1,6 +1,6 @@
-<?php include_once("analyticstracking.php") ?>
 <?php
 
+require("../PHPMailer_5.2.0/class.phpmailer.php");
 // Variable Declarations
 $errors = array(); // set the errors array to empty, by default
 $fields = array(); // stores the field values
@@ -29,31 +29,32 @@ if (isset($_POST['submit'])) {
 	$rules[] = "required,phone, Please enter your phone number.";
 	$rules[] = "required,message, Please enter a message.";
 
-	$headers = "MIME-Version: 1.0\r\n".
-	   "Content-type: text/html; charset=utf-8\r\n".
-	   "Return-Path: cassandra@iciprivatesale.com";
+	$mail = new PHPMailer();
 
-	$email_text = generateEmail ($name, $email, $phone, $message, "<br />");
+	$mail->IsSMTP();
+	$mail->Host = "smtp.gmail.com";
+	$mail->SMTPAuth = true;
+	$mail->Port = 587;
+	$mail->SMTPSecure "tls";
+	$mail->Username = "contactuslori@gmail.com";
+	$mail->Password = "loricommercial2017";
 
-	mail("cassandra@iciprivatesale.com", "Contact Form", $email_text, $headers);
+	$mail->From("");
+	$mail->AddAddress("");
+	$mail->Subject = "Contact Form";
+	$mail->Body = "Name " . $name . " Email " . $email . " Phone " $phone . "Message " $message;
 
-	echo "Thank You!" . " -" . "<a href='index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+	if(!$mail->Send()) {
+		echo "Mail has not been sent. <p>";
+		exit;
+	}
+
+	echo "Thank You!" . " -" . "<a href='home.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 
   #echo ('Thanks for registering! A copy of the form details below has been emailed to you and your teammates for your reference.<br \><br \>');
 
 }
 
-//-----------------------------------------------------------------------------
-// Function Name: generateEmail
-// Outputs: Parses registration into a readable format for emailing
-//-----------------------------------------------------------------------------
-function generateEmail ($name, $email, $phone, $message, $break)
-{
-	$body = " From: $name \n Email: $email \n Phone: $phone \n Message: $message";
-
-	return $body;
-}
-?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="../Templates/UW_uwaterloo.dwt.php" codeOutsideHTMLIsLocked="false" -->
@@ -88,4 +89,3 @@ function generateEmail ($name, $email, $phone, $message, $break)
 ?>
 
 <!-- InstanceEndEditable --></div></div><script type="text/javascript">
-

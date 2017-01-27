@@ -192,8 +192,8 @@
 }
 
 .line {
-	margin: 0px 200px 50px 200px;
-	max-width: 25%;
+	margin: 0px 0px 70px 0px;
+	max-width: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -202,6 +202,10 @@
 	font-size: 16px;
 	margin: 0px 200px 50px 200px;
 	text-align: left;
+}
+	.line {
+	margin: 0px 0px 70px 0px;
+	max-width: 25%;
 }
 }
 

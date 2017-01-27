@@ -175,7 +175,7 @@
 }
 
 
-	.text {
+.text {
 	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
 	font-size: 16px;
 	margin: 0px 5px 50px 5px;
@@ -191,6 +191,11 @@
 	margin-bottom: 25px;
 }
 
+.line {
+	margin: 0px 200px 50px 200px;
+	max-width: 25%;
+}
+
 @media screen and (min-width: 768px) {
 	.text {
 	font-family: 'Open Sans', 'Helvetica', Sans-Serif;
@@ -200,4 +205,3 @@
 }
 }
 
-}

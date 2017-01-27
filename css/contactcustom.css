@@ -189,8 +189,10 @@ textarea:hover {
 }
 .text {
 	text-align: center;
-	font-size: 14px;
+	font-size: 14pt;
 	margin-bottom: 10px;
+	font-family: Raleway, serif;
+	color: #333;
 }
 
 @media screen and (min-width: 768px) {
@@ -269,7 +271,9 @@ textarea:hover {
 }
 .text {
 	text-align: center;
-	font-size: 14px;
+	font-size: 14pt;
 	margin-bottom: 10px;
+	font-family: Raleway, serif;
+	color: #333;
 }
 }

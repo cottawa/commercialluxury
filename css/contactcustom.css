@@ -175,10 +175,10 @@ textarea:hover {
 }
 
 .footer {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:11px;
 	color: #000000;
-	position: relative;
+	position: fixed;
 	left: 5px;
 	bottom: 5px;
 }

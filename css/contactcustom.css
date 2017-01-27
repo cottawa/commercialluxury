@@ -187,6 +187,11 @@ textarea:hover {
 	margin: 0px 0px 30px 0px;
 	max-width: 75%;
 }
+.text {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
 
 @media screen and (min-width: 768px) {
 	
@@ -261,5 +266,10 @@ textarea:hover {
 .line {
 	margin: 0px 0px 70px 0px;
 	max-width: 25%;
+}
+.text {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 10px;
 }
 }

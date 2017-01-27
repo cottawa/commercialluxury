@@ -185,7 +185,7 @@ textarea:hover {
 
 .line {
 	margin: 0px 0px 70px 0px;
-	max-width: 50%;
+	max-width: 75%;
 }
 
 @media screen and (min-width: 768px) {
@@ -260,6 +260,6 @@ textarea:hover {
 	
 .line {
 	margin: 0px 0px 70px 0px;
-	max-width: 20%;
+	max-width: 25%;
 }
 }

@@ -35,12 +35,12 @@ if (isset($_POST['submit'])) {
 	$mail->Host = "smtp.gmail.com";
 	$mail->SMTPAuth = true;
 	$mail->Port = 587;
-	$mail->SMTPSecure "tls";
+	$mail->SMTPSecure = "tls";
 	$mail->Username = "contactuslori@gmail.com";
 	$mail->Password = "loricommercial2017";
 
-	$mail->From("");
-	$mail->AddAddress("");
+	$mail->From("contactuslori@gmail.com");
+	$mail->AddAddress("contactuslori@gmail.com");
 	$mail->Subject = "Contact Form";
 	$mail->Body = "Name " . $name . " Email " . $email . " Phone " $phone . "Message " $message;
 

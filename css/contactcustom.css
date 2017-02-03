@@ -4,7 +4,7 @@
 }
 
 .icon {
-	max-width: 20%;
+	max-width: 25%;
 	text-align: center;
 	margin: auto;
 	display: block;
@@ -306,4 +306,13 @@ textarea:hover {
 	margin-bottom: 20px;
 	font-family: 'Open Sans', serif;
 }
+	.icon {
+	max-width: 7%;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
 }
